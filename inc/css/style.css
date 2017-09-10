@@ -1,0 +1,503 @@
+@font-face {
+    font-family: tarningen;
+    src: url(../font/teutonic/Teutonic.ttf);
+}
+*{
+ margin: 0;
+}
+body{
+ background-color: #c9dcc9;
+}
+a{
+ color: #ffffff;
+}
+footer a{
+ color: #333333;
+ text-decoration: none;
+}
+h1{
+ font-family: tarningen;
+ font-size: 125px;
+ font-weight: lighter;
+ color: #333333;
+}
+h3{
+ font-family: tarningen;
+ font-size: 50px;
+ font-weight: lighter;
+ color: #333333;
+}
+p{
+ color: #333333;
+}
+#header{
+ display: flex;
+ width: 100%;
+ flex-direction: column;
+}
+#header h3{
+ font-family: tarningen;
+ font-size: 50px;
+ font-weight: lighter;
+ padding-top: 15px;
+ position: absolute;
+ left: 26%;
+}
+#headercontent{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ flex-direction: row;
+}
+#logo{
+ padding-left: 20px;
+ width: 10%;
+ height: 10%;
+
+}
+#socialcontainer{
+ width: 30%;
+ display: flex;
+ flex-direction: row;
+}
+.roundDiv{
+ background-color: #000000;
+ color: #ffffff;
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+ font-size: 25px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 5px;
+}
+.roundDiv:hover{
+ background-color: #333333;
+}
+
+.sectionheader{
+ color: #333333;
+ font-size: 70px;
+ padding-top: 50px;
+ line-height: 200%;
+ text-align: center;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+#butiken{
+ width: 100%;
+ padding-top: 50px;
+}
+.contentwrapper{
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+}
+.col-3{
+ width: 20%;
+ height: auto;
+ margin: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.col-3 img {
+ height: 150px;
+ padding-bottom: 15px;
+}
+.col-1{
+ width: 84%;
+ background-color: #333333;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.infoBox{
+ width: 100%;
+ background-color: #333333;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.infoBox p {
+ color: #c9dcc9;
+ font-size: 25px;
+ font-family: tarningen;
+}
+.col-1 p{
+ color: #c9dcc9;
+ font-size: 22px;
+ font-family: tarningen;
+}
+/*
+===============================================================
+============================Nyheter============================
+===============================================================
+*/
+#nyheter{
+ background-color: #c9dcc9;
+ height: auto;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ flex-wrap: wrap;
+ padding-top: 50px;
+}
+#iframewrapper{
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ padding-top: 30px;
+}
+#facebookcontainer{
+ width: 322px;
+ height: 500px;
+ overflow: hidden;
+}
+#facebookcontainer iframe{
+ width: 340px;
+ height: 500px;
+ border: none;
+ overflow: hidden;
+}
+::-webkit-scrollbar {
+display: none;
+}
+#calendercontainer{
+ width: 600px;
+ height: 500px;
+ padding-left: 50px;
+ overflow: hidden;
+}
+#calendercontainer iframe{
+ width: 600px;
+ height: 500px;
+ border: none;
+ overflow: hidden;
+}
+/*
+===============================================================
+============================Kontakt============================
+===============================================================
+*/
+#kontakt{
+ height: auto;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+#uppermsgbody{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+.msginput{
+ font-size: 22px;
+ font-family: "tarningen";
+ background: white;
+ color: #333333;
+ border: 1px solid;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ margin-left: 10px;
+ width: 30%;
+ padding: 10px;
+}
+#lowermsgbody{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+#msg{
+ color: #333333;
+ font-family: "tarningen";
+ font-size: 22px;
+ background: #ffffff;;
+ border: 1px solid;
+ margin-left: 10px;
+ width: 62%;
+ height: 150px;
+ padding: 10px;
+ align-self: center;
+ resize: none;
+}
+#skicka{
+	border-radius: 10px;
+	background-color: #ffffff;
+ border: 1px solid;
+ color: #333333;
+ padding: 10px;
+ width: 15%;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ font-size: 22px;
+ align-self: center;
+ font-family: "tarningen";
+}
+#skicka:hover{
+ background-color: #333333;
+ color: #ffffff;
+}
+
+/*
+===============================================================
+============================Karta============================
+===============================================================
+*/
+#kartsektion{
+ height: auto;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+ flex-wrap: wrap;
+ padding-top: 50px;
+}
+#txt-2-column{
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+#karttxt{
+ width: 40%;
+ color: #333333;
+ font-size: 24px;
+ font-family: "tarningen";
+ padding: 10px;
+ list-style-type: none;
+}
+#karta{
+  height: 400px;
+  width: 100%;
+}
+#eventwrapper{
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.threecolumns{
+ width: 25%;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ flex-wrap: wrap;
+ padding: 20px;
+}
+/*
+===============================================================
+===========================Media Query=========================
+===============================================================
+*/
+@media (max-width: 1024px){
+.threecolumns{
+ width: 25%;
+ padding-bottom: 0px;
+}
+
+#iframewrapper{
+ flex-direction: column;
+}
+#calendercontainer{
+ padding-top: 20px;
+}
+#kontakt{
+ width: 100%;
+}
+#kartsektion{
+ width: 100%;
+}
+footer{
+ width: 100%;
+}
+}
+@media (max-width: 736px){
+ h1{
+  font-size: 60px;
+  line-height: 150%;
+ }
+ h3{
+  font-size: 40px;
+  line-height: 150%;
+  padding-bottom: 10px;
+ }
+ h2{
+  font-size: 24px;
+  line-height: 150%;
+ }
+ p {
+  font-size: 14px;
+ }
+ #header h3{
+  padding-top: 20px;
+  position: static;
+  line-height: normal;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+ }
+ #headercontent{
+  padding-top: 0px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+ }
+ #header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+ }
+ #logo{
+  width: 15%;
+  height: auto;
+  position: static;
+ }
+ #socialcontainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+ .roundDiv{
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+ }
+ .left{
+  position: static;
+  right: 0%;
+ }
+ .right{
+  position: static;
+  right: 0%;
+ }
+.sectionheader{
+  text-align: center;
+  font-size: 40px;
+  line-height: 150%;
+  padding-top: 0px;
+ }
+
+ .col-3{
+  width: 80%;
+  height: auto;
+  padding: 10px;
+ }
+ .col-1{
+  width: 75%;
+  height: auto;
+  padding: 10px;
+ }
+ #nyheter{
+  width: 100%;
+  padding-bottom: 50px;
+ }
+ #iframewrapper{
+  flex-direction: column;
+ }
+ #calendercontainer{
+  width: 90%;
+  height: 300px;
+  padding-left: 0px;
+  padding-top: 10px;
+  overflow: hidden;
+ }
+ #calendercontainer iframe{
+  width: 100%;
+  height: 300px;
+  border: none;
+  overflow: hidden;
+ }
+ #galleri{
+  width: 100%;
+ }
+ #about{
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+ }
+ #gallerispace{
+  width: 100%;
+ }
+ #kontakt{
+  width: 100%;
+  height: auto;
+ }
+ #uppermsgbody{
+  flex-direction: column;
+ }
+ .msginput{
+  margin-top: 40px;
+ 	margin-bottom: 10px;
+ 	width: 70%;
+ 	padding: 10px;
+ }
+ #skicka{
+  width: 50%;
+ }
+ #kartsektion{
+  width: 100%;
+ }
+ #txt-2-column{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+ }
+ #karttxt{
+  padding: 10px;
+  font-size: 22px;
+  width: 100%;
+ }
+ footer{
+   height: auto;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding-top: 20px;
+ }
+ .threecolumns{
+  width: 100%;
+  padding-bottom: 10px;
+}
+}
